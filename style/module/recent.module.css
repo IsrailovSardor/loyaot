@@ -1,0 +1,126 @@
+.recent {
+    width: 100%;
+    padding: 50px 10px 0 10px;
+}
+
+.recent-container {
+    margin: auto;
+    max-width: 1220px;
+}
+
+.recent-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-header__title {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #413E52;
+}
+
+.recent-header__arrow {
+    display: flex;
+    align-items: center;
+}
+
+.recent-header__text {
+    font-size: 14px;
+    line-height: 29px;
+    color: #413E52;
+    margin-right: 12px;
+}
+
+.recent-line {
+    width: 100%;
+    height: 1px;
+    background: #868297;
+    margin: 8px 0 31px;
+    position: relative;
+}
+
+.recent-line__line {
+    position: absolute;
+    top: -1.5px;
+    height: 4px;
+    width: 148px;
+    background: #413E52;
+}
+
+.recent-cards {
+    display: flex;
+    gap: 0 57px;
+    width: 100%;
+}
+
+.recent-card {
+    height: 407px;
+    width: 33%;
+    background: #FFFFFF;
+    border: 1px solid #EBEAF2;
+    box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+    border-radius: 8px;
+}
+.recent-img {
+    width: 100%;
+}
+
+.recent-card__description {
+    padding: 29px 0 0 24px;
+}
+
+.recent-card__title {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #5C5CFF;
+    margin-bottom: 31px;
+}
+
+.recent-card__text {
+    font-size: 13px;
+    line-height: 20px;
+    color: #868297;
+    margin-bottom: 7px;
+}
+
+.recent-card__context {
+    max-width: 265px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #413E52;
+
+}
+@media (max-width:900px) {
+    .recent-card__description {
+        padding: 10px;
+    }
+    .recent-card {
+        height: auto;
+    }
+    .recent-cards {
+        gap: 0 30px;
+    }
+    
+}
+@media (max-width:660px) {
+    .recent-card__description {
+        padding: 10px;
+    }
+    .recent-card {
+        height: auto;
+    }
+    .recent-cards {
+        gap: 20px 20px;
+        flex-wrap: wrap;
+        padding: 0 0 ;
+    }.recent-card {
+        height: auto;
+        width: 100%;
+    }
+    
+}

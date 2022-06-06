@@ -1,0 +1,138 @@
+footer {
+    width: 100%;
+    height: auto;
+    background: #1B1B4D;
+    padding: 128px 10px;
+}
+
+.footer-container {
+    margin: auto;
+    max-width: 1220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    margin-top: 28px;
+}
+
+.links__img {
+    margin-right: 8px;
+}
+
+.footer-categories {
+    padding-right: 35px;
+}
+
+.footer-categories:nth-child(3) {
+    padding-right: 75px;
+}
+
+.footer-categories__title {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #ABABFA;
+    margin-bottom: 12px;
+}
+
+.footer-categories__text {
+    font-size: 14px;
+    line-height: 29px;
+    color: #ABABFA;
+    margin-bottom: 8px;
+}
+
+.quality__title {
+    font-size: 29px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.quality__btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.quality__btn-email {
+    height: 56px;
+    width: 383px;
+    background: #1B1B4D;
+    border: 1px solid #8989F8;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #5C5CFF;
+    margin: 32px 0 16px 0;
+}
+
+.quality__btn-subscribe {
+    height: 56px;
+    width: 383px;
+    background: #5C5CFF;
+    border: 1px solid #8989F8;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media (max-width:968px) {
+    .footer-container {
+        flex-wrap: wrap;
+    }
+
+    .footer-categories {
+        order: 0;
+    }
+
+    .quality {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:600px) {
+    footer {
+        width: 100%;
+        height: auto;
+        background: #1B1B4D;
+        padding: 40px 10px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-categories {
+        padding-top: 20px;
+    }
+
+    .quality {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .quality__btn {
+        width: 100%;
+    }
+
+    .quality__btn-email {
+        width: 100%;
+    }
+
+    .quality__btn-subscribe {
+        width: 100%;
+    }
+}

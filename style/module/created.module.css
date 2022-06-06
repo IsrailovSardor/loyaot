@@ -1,0 +1,18 @@
+.created {
+    width: 100%;
+    height: auto;
+    padding: 7px 10px 8px 10px;
+background: #ABABFA;
+}
+.created-block {
+    margin: auto;
+    max-width: 1220px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.created__title {
+    font-size: 14px;
+line-height: 29px;
+color: #1B1B4D;
+margin-right: 25px;
+}

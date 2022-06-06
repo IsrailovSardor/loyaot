@@ -1,0 +1,142 @@
+.case {
+    width: 100%;
+    padding: 128px 10px 0 10px;
+}
+
+.case-container {
+    margin: auto;
+    max-width: 1220px;
+}
+
+.case-effect {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.case-effect__card {
+    height: 507px;
+    width: 698px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #EBEAF2;
+    box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+    border-radius: 8px;
+    margin-right: 56px;
+}
+
+.case-effect__img {
+    height: 360px;
+    width: 697px;
+}
+
+.case-effect__description {
+    padding: 25px 0 49px 25px;
+}
+
+.case-effect__title {
+    font-size: 13px;
+    line-height: 20px;
+    color: #413E52;
+    margin-bottom: 8px;
+}
+
+.case-effect__text {
+    font-size: 29px;
+    line-height: 42px;
+    color: #413E52;
+}
+
+.case-effect__name {
+    height: 100%;
+    max-width: 465.59375px;
+}
+
+.case-name__description {
+    margin-bottom: 34px;
+}
+
+.case-name__title {
+    font-size: 13px;
+    line-height: 20px;
+    color: #868297;
+    margin-bottom: 7px;
+}
+
+.case-name__text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #413E52;
+}
+.case-arrow__img {
+    position: absolute;
+    left: -4.5%;
+    top: 10%;
+    z-index: -1;
+}
+@media(max-width:1061px) {
+    .case-effect__card {
+        width: 598px;
+    }
+    
+    .case-effect__img {
+        height: 360px;
+        width: 597px;
+    }
+}
+@media(max-width:950px) {
+    .case-effect__card {
+        width: 498px;
+        height: 430px;
+        margin-right: 30px;
+    }
+    
+    .case-effect__img {
+        height: auto;
+        width: 497px;
+    }
+}
+@media(max-width:800px) {
+    .case-effect__description {
+        padding: 15px;
+    }
+    .case-effect__card {
+        width: 398px;
+        height: 410px;
+        margin-right: 20px;
+    }
+        
+    .case-effect__img {
+        height: auto;
+        width: 397px;
+    }
+    .case-arrow__img {
+       display: none;
+    }
+    
+    .case-effect__name {
+        height: 100%;
+        max-width: 465.59375px;
+    }
+}
+@media(max-width:661px) {
+    .case-effect {
+        display: block;
+    }
+    .case-effect__card {
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+    }
+        
+    .case-effect__img {
+       height: auto;
+       width: 100%;
+    }
+    .case-effect__name {
+        width: 100%;
+        padding: 30px 15px ;
+    }
+
+}
