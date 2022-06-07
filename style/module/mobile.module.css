@@ -1,6 +1,6 @@
 .mobile {
     width: 100%;
-    padding: 128px 10px 248px 10px;
+    padding: 128px 15px 248px 15px;
 }
 
 .mobile-container {
@@ -55,6 +55,14 @@
     border-radius: 4px;
     height: 56px;
     width: 273px;
+    cursor: pointer;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5C5CFF;
+    padding: 10px;
+}
+.mobile-head__email::placeholder {
+    text-align: center;
     font-size: 20px;
     line-height: 30px;
     color: #5C5CFF;
@@ -70,6 +78,7 @@
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .case-weght {
@@ -97,7 +106,7 @@
 @media (max-width:661px) {
     .mobile {
         width: 100%;
-        padding: 40px 10px 0 10px;
+        padding: 40px 15px 0 15px;
     }
 
     .mobile-block {

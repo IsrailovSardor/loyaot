@@ -162,7 +162,7 @@
 
 @media (max-width: 600px) {
     .technology {
-        padding: 70px 10px;
+        padding: 70px 15px;
     }
 
     .left-fon__arrow {
@@ -196,6 +196,6 @@
     }
 
     .technology {
-        padding: 40px 10px 0 10px;
+        padding: 40px 15px 0 15px;
     }
 }

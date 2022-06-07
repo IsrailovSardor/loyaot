@@ -17,3 +17,26 @@
 button {
     border: none;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+
+.button__effect-email:active {
+    transform: scale(0.98);
+}
+.button__effect-email:focus {
+    border: 1px solid #ffffff;
+}
+
+.button__effect:hover {
+    background: #2d2d7e;
+    border: 1px solid #ffffff;
+}
+.button__effect:active {
+    transform: scale(0.98);
+}
+
+.button__effect:focus {
+    border: 1px solid #ffffff;
+}

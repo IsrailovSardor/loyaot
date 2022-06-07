@@ -1,6 +1,6 @@
 .ebook {
     width: 100%;
-    padding: 128px 10px 0 10px;
+    padding: 128px 15px 0 15px;
 }
 
 .ebook-container {
@@ -50,7 +50,16 @@
     line-height: 30px;
     color: #5C5CFF;
     margin-bottom: 16px;
+    cursor: pointer;
+    padding: 10px;
 }
+.ebook-button__email::placeholder {
+    font-size: 20px;
+    line-height: 30px;
+    color: #5C5CFF;
+    text-align: center;
+}
+
 
 .ebook-button__subscribe {
     height: 56px;
@@ -60,6 +69,7 @@
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 @media(max-width:990px) {
@@ -97,7 +107,7 @@
 
 @media(max-width:523px) {
     .ebook {
-        padding: 70px 10px 0 10px;
+        padding: 70px 15px 0 15px;
     }
 
     .ebook-container {
@@ -115,6 +125,6 @@
 }
 @media(max-width:329px) {
     .ebook {
-        padding: 40px 10px 0 10px;
+        padding: 40px 15px 0 15px;
     }
 }
