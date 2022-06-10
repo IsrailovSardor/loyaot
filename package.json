@@ -1,0 +1,22 @@
+{
+  "name": "loyaot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsrailovSardor/loyaot.git"
+  },
+  "author": "sardor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsrailovSardor/loyaot/issues"
+  },
+  "homepage": "https://github.com/IsrailovSardor/loyaot#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
