@@ -1,0 +1,130 @@
+.ebook {
+    width: 100%;
+    padding: 128px 15px 0 15px;
+}
+
+.ebook-container {
+    margin: auto;
+    height: auto;
+    max-width: 1220px;
+    background: #111131;
+    border-radius: 8px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ebook-description {
+    width: 47%;
+    margin-right: 50px;
+}
+
+.ebook-description__title {
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #5C5CFF;
+    margin-bottom: 27px;
+}
+
+.ebook-description__text {
+    font-size: 31px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.ebook-button {
+    padding-top: 30px;
+    width: 47.5%;
+}
+
+.ebook-button__email {
+    height: 56px;
+    width: 100%;
+    background: #1B1B4D;
+    border: 1px solid #8989F8;
+    border-radius: 4px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #5C5CFF;
+    margin-bottom: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+.ebook-button__email::placeholder {
+    font-size: 20px;
+    line-height: 30px;
+    color: #5C5CFF;
+    text-align: center;
+}
+
+
+.ebook-button__subscribe {
+    height: 56px;
+    width: 100%;
+    border-radius: 4px;
+    background: #5C5CFF;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media(max-width:990px) {
+    .ebook-description__text {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .ebook-container {
+        padding: 38px;
+    }
+}
+
+@media(max-width:681px) {
+    .ebook-container {
+        padding: 18px;
+    }
+
+    .ebook-description {
+        margin-right: 20px;
+    }
+
+    .ebook-button {
+        padding-top: 50px;
+    }
+
+    .ebook-button__email {
+        height: 46px;
+    }
+
+    .ebook-button__subscribe {
+        height: 46px;
+    }
+}
+
+@media(max-width:523px) {
+    .ebook {
+        padding: 70px 15px 0 15px;
+    }
+
+    .ebook-container {
+        flex-direction: column;
+    }
+
+    .ebook-description {
+        width: 100%;
+        margin-right: 0
+    }
+
+    .ebook-button {
+        width: 100%;
+    }
+}
+@media(max-width:329px) {
+    .ebook {
+        padding: 40px 15px 0 15px;
+    }
+}

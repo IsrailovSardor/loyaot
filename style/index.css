@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(./module/header.module.css);
+@import url(./module/discover.module..css);
+@import url(./module/technology.module.css);
+@import url(./module/recent.module.css);
+@import url(./module/ebook.module.css);
+@import url(./module/case.module.css);
+@import url(./module/mobile.module.css);
+@import url(./module/footer.mobule.css);
+@import url(./module/created.module.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+button {
+    border: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+.button__effect-email:active {
+    transform: scale(0.98);
+}
+.button__effect-email:focus {
+    border: 1px solid #ffffff;
+}
+
+.button__effect:hover {
+    background: #2d2d7e;
+    border: 1px solid #ffffff;
+}
+.button__effect:active {
+    transform: scale(0.98);
+}
+
+.button__effect:focus {
+    border: 1px solid #ffffff;
+}
